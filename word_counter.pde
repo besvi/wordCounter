@@ -4,7 +4,7 @@ void setup() {
   background(0);
   fill(255);
   counts = new IntDict();
-  String[] lines = loadStrings("bEES.txt");
+  String[] lines = loadStrings("TAZ39.txt");
   String allwords = join(lines, "\n");
   String[] tokens = splitTokens(allwords, "\n ,;.?!");
   for (int i = 0; i < tokens.length; i++) {
